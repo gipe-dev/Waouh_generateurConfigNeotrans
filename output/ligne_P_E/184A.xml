@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<information>
+		<name>WAOUH PLD et Frontaux</name>
+		<version>1.14</version>
+		<description>Rame 184A contient 8 PLD et 2 Frontaux LED</description>
+	</information>
+	<types>
+		<name>PLD</name>
+		<expected>
+			<Kernel-version>3.2.1.0</Kernel-version>
+			<Application-version>1.9.2.2</Application-version>
+			<Media-content-version>1.14.3.0_EP</Media-content-version>
+		</expected>
+		<description>Afficheur PLD</description>
+		<username>maintenance</username>
+		<password>Koda-007-008</password>
+	</types>
+	<types>
+		<name>LED</name>
+		<expected>
+			<Kernel-version>3.2.0.1</Kernel-version>
+			<Application-version>1.9.2.2</Application-version>
+			<Media-content-version>1.14.3.0_EP</Media-content-version>
+		</expected>
+		<description>Frontal LED</description>
+		<username>maintenance</username>
+		<password>Koda-007-008</password>
+	</types>
+	<devices>
+		<type>PLD</type>
+		<address>10.184.0.7</address>
+		<description>PLD Motrice Zi Switch PF1 port 7</description>
+	</devices>
+	<devices>
+		<type>PLD</type>
+		<address>10.184.1.7</address>
+		<description>PLD Motrice Zi Switch PF2 port 7</description>
+	</devices>
+	<devices>
+		<type>PLD</type>
+		<address>10.184.16.7</address>
+		<description>PLD remorque ZR1 Switch PF1 port 7</description>
+	</devices>	
+	<devices>
+		<type>PLD</type>
+		<address>10.184.17.10</address>
+		<description>PLD remorque ZR1 Switch PF2 port 10</description>
+	</devices>
+	<devices>
+		<type>PLD</type>
+		<address>10.184.24.7</address>
+		<description>PLD remorque ZR2 Switch PF1 port 7</description>
+	</devices>
+	<devices>
+		<type>PLD</type>
+		<address>10.184.25.10</address>
+		<description>PLD remorque ZR2 Switch PF2 port 10</description>
+	</devices>
+	<devices>
+		<type>PLD</type>
+		<address>10.184.8.7</address>
+		<description>PLD Motrice Zp Switch PF1 port 7</description>
+	</devices>
+	<devices>
+		<type>PLD</type>
+		<address>10.184.9.7</address>
+		<description>PLD Motrice Zp Switch PF2 port 7</description>
+	</devices>
+	<devices>
+		<type>LED</type>
+		<address>10.184.2.7</address>
+		<description>Frontal LED Motrice Zi</description>
+	</devices>
+		<devices>
+		<type>LED</type>
+		<address>10.184.10.5</address>
+		<description>Frontal LED Motrice Zp</description>
+	</devices>
+</project>
