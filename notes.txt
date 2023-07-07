@@ -1,0 +1,16 @@
+----------------------------------------------------
+        HISTORIQUE
+----------------------------------------------------        
+
+2023/07/07 : output = Rames_2.2
+    - nouveau packmedia ligne DR : 1.16.0.0_ligneDR
+    - création de 3 nouvelles variables verDR = 1.16, verPE = 1.14, verC = 1.15
+    - création .gitignore avec "output/"
+
+
+----------------------------------------------------
+        NOTICE
+----------------------------------------------------
+visual code
+modifier gen_conf.py
+executer

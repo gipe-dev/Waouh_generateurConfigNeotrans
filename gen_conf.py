@@ -42,16 +42,10 @@ tmpl_path: str = "\\Rame_tmpl.xml"
 out_path = ".\\output"
 
 os.makedirs(out_path, exist_ok=True)
-# ver: str = input("version: ")
-# pld_kern_version: str = input("PLD Kernel-version: ")
-# pld_app_version: str = input("PLD Application-version: ")
-# pld_media_content_version: str = input("PLD Media-content-version: ")
-# led_kern_version: str = input("PLD Kernel-version: ")
-# led_app_version: str = input("PLD Application-version: ")
-# led_media_content_version: str = input("PLD Media-content-version: ")
-#
 
-ver: str = "1.14"
+verDR: str = "1.16"
+verPE: str = "1.14"
+verC: str = "1.15"
 pld_kern_version: str = "3.2.1.0"
 pld_app_version: str = "1.9.2.2"
 pld_media_content_version: str = "1.14.0.25_DR"
@@ -59,15 +53,15 @@ led_kern_version: str = "3.2.0.1"
 led_app_version: str = "1.9.2.2"
 
 ligne_versions = {
-    'ligne_D_R': {"ver": ver,
+    'ligne_D_R': {"ver": verDR,
                   "pld_kern_version": pld_kern_version,
                   "pld_app_version": pld_app_version,
                   "led_kern_version": led_kern_version,
                   "led_app_version": led_app_version,
-                  "pld_media_content_version": "1.14.0.25_DR",
-                  "led_media_content_version": "1.14.0.25_DR"
+                  "pld_media_content_version": "1.16.0.0_ligneDR",
+                  "led_media_content_version": "1.16.0.0_ligneDR"
                   },
-    'ligne_P_E': {"ver": ver,
+    'ligne_P_E': {"ver": verPE,
                   "pld_kern_version": pld_kern_version,
                   "pld_app_version": pld_app_version,
                   "led_kern_version": led_kern_version,
@@ -75,13 +69,13 @@ ligne_versions = {
                   "pld_media_content_version": "1.14.3.0_EP",
                   "led_media_content_version": "1.14.3.0_EP"
                   },
-    'ligne_C': {"ver": "1.15",
+    'ligne_C': {"ver": verC,
                 "pld_kern_version": pld_kern_version,
                 "pld_app_version": pld_app_version,
                 "led_kern_version": led_kern_version,
                 "led_app_version": led_app_version,
-                "pld_media_content_version": "1.15.0.2",
-                "led_media_content_version": "1.15.0.2"
+                "pld_media_content_version": "1.15.0.2_ligneC",     # = data in manifest.xml
+                "led_media_content_version": "1.15.0.2_ligneC"
                 },
 }
 
